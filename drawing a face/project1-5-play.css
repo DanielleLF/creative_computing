@@ -1,0 +1,67 @@
+#face:hover {
+background-color:aqua;
+  width:520px;
+  height:520px;
+  transition: all .3s;
+}
+
+
+.ears{
+ display: block;
+ width: 100px;
+ height: 120px;
+ background-color: brown;
+ border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+ display:inline-block 
+}
+
+#right_ear {
+margin:15px;
+position:relative;
+left:300px;	
+bottom:300px;
+}
+
+
+#left_ear {
+margin:15px;
+position:relative;
+left:-30px;	
+bottom:300px;	
+}
+
+.pupil:hover { 
+width:50px;
+height:30px;
+transition: width 2s, height 4s;
+background-color:red;
+}
+
+#mouth:hover{
+width:80px;
+height:50px;
+transition: width 3s, height 5s;
+background-color:gold;
+}
+
+/*#runnynose {
+width: 10px;
+height: 20px;
+background:pink;
+position: relative;
+left:55px;	
+top:105px;
+}
+*/
+/*#runnynose:hover {
+background-color:green;	
+}*/
+
+#nose:hover {
+width:0;
+height:0;
+border-left:30px solid transparent;
+border-right:30px solid transparent;
+border-bottom:100px solid purple;
+
+}

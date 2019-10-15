@@ -1,0 +1,57 @@
+#face {
+width:500px;
+height:500px;
+border-radius:50%;
+background-color:pink;
+margin: 200px;
+}
+
+.eye {
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:white; 
+display:inline-block 
+}
+
+#left_eye {
+margin:15px;
+position:relative;
+left:130px;
+top:80px;
+
+}
+
+#right_eye {
+margin:15px;
+position: relative;
+left:130px;	
+top:80px;
+}
+
+.pupil {
+width:50px;
+height:50px;
+border-radius:50%;
+background-color:black;
+margin: 25px; 
+}
+
+#mouth {
+width:100px;
+height:100px;
+border-radius:50%;
+background-color:red; 
+margin-top:30px;
+margin-left:200px;
+}
+
+#nose{
+width:0;
+height:0;
+border-left:50px solid transparent;
+border-right:50px solid transparent;
+border-bottom:100px solid blue;
+margin-top:80px;
+margin-left:210px;
+}

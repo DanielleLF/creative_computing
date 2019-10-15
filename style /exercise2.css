@@ -1,0 +1,19 @@
+.blue_text {
+	color:blue;}
+.green_text {
+	color:green;}
+#red_text {
+	color:red;}
+.fixed_size {
+	font-size:60px;}
+.resonsive_size {
+	font-size: 8vw;}
+.fixed_box {
+	width:200px;
+	height:200px; 
+	background-color:blue;}
+.resonsive_box {width:20vw; height:20vh; background-color:red;}	
+.box1 {
+  width: 200px;
+  margin: 0 auto 0 auto;
+}
