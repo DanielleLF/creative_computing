@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30pt ;
+	line-height:32pt ;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 15pt;
+	line-height:20pt;
+}
+p{
+	font-family: 'Arimo', sans-serif;
+	font-size:20pt ;
+	line-height:25pt;
+}
+
+.flex_parent {display:flex;}
+
+.image {flex:2; margin:20px;}
+
+.text {flex:1; margin:20px;}
+
+img {width:100%;}
+
+.grid_parent{
+  box-sizing:border-box;
+  padding:2vw;
+  width:80vw;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr;
+  grid-gap:20px;
+  grid-template-areas:
+  "Work/ Animation  News/ Animation Work / Illustration"
+  "Features / Photography"; 
+  }
+
+  
