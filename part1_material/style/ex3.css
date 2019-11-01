@@ -40,4 +40,56 @@ img {width:100%;}
   "Features / Photography"; 
   }
 
+ 
+  /*.nav {display:flex;
+   border-bottom: 1px solid black; */
+   /*position:fixed; 
+   background-color:white;}*/
+   /*.nav_item1 {flex:3;}
+  .nav_item2 {flex:2;}
+  .nav_item3 {flex:3;}*/
+
+.social_icon {width:50px;}
+.nav {
+width: 100vw;
+box-sizing: border-box;
+padding: 2vw 12.5vw;
+display: flex;
+border-bottom: 1px solid gray;
+position: fixed;
+background-color: white;
+top: 0;
+}
+  
+.nav_item1 {
+flex: 3;
+padding-top: 2.75vw;
+}
+
+.nav_link {
+margin-right: 1.5vw;
+font-family: 'Arimo', sans-serif;
+font-size: 1vw;
+font-weight: bold;
+}
+
+.nav_item2 {
+flex: 2;
+text-align: center;
+}
+
+
+.nav_item3 {
+flex: 3;
+padding-top: 2.3vw;
+}
+
+.social_icon {
+width: 1.5vw;
+margin-right: 1.5vw;
+}
+
+.flex_parent {
+margin-top: 15vw;
+}
   

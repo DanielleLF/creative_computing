@@ -1,0 +1,47 @@
+body {
+	  /*background-color:#1C1126;*/
+	  /*text-align:center;*/ 
+	  font-family: Helvetica bold, sans-serif;  
+}
+
+.box { 
+width: 1500px; 
+height: 1800px;
+background:#1C1126;
+position:relative;
+}
+
+h2,h3 {color:#A62E2E;}
+
+.der {
+font-size: 480px; 
+color:#A5A68D;
+position:absolute;
+top:915px;
+left:35px;
+}
+
+.Film {
+font-size: 500px;
+color:#D9D5C5; 
+position: absolute;
+top:900px;
+left:445px;
+}
+
+.poster-content {
+position:absolute;
+top:1500px;
+left:500px;
+font-size:35px;
+}
+
+.poster-subheader {
+position:absolute;
+top:100px;
+left:500px;
+font-size:35px;
+}
+
+
+
