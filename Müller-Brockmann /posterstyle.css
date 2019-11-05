@@ -43,5 +43,24 @@ left:500px;
 font-size:35px;
 }
 
+a{
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #A5A68D,#A62E2E ,#D9D5C5 );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 10s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
 
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+}
 
