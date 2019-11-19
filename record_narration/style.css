@@ -1,4 +1,52 @@
 body {
-background-color: black;
+background-color: white;
+/*text-align: center;*/
+}
+
+h1 {
+color:#1BA09C;	
+font-size:30px;
+text-align:center
+font-style: Normal;
+font-weight: Bold;
+}
+
+.content { 
+  padding:10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+/*
+figure {
+display: block;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+}*/
+
+
+.block {
+text-align: center;
+width: 100%;
+z-index: -10;
+}
+
+.block1 {
+text-align: center;
+width: 100%;
+z-index: -10;
+}
+
+h2{ 
+color:#1BA09C;
+}
+
+h2:hover {
+/*text-shadow:4px 5px #EC853D;*/
+color:#EC853D;
 
 }
+

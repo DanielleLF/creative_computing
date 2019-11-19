@@ -1,0 +1,46 @@
+body { 
+ /*background-image: url(images/runway.jpg);
+ background-repeat: no-repeat;*/
+ background-color: #D9E158;
+}
+
+h1 {
+color: black;
+text-shadow: 4px 5px silver;
+font-size:40px;
+text-align:center
+font-style: Normal;
+font-weight: Bold;
+}
+
+
+.content { 
+  padding:10px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ }
+
+ 
+ .block {
+text-align: center;
+width: 100%;
+z-index: -10;
+}
+
+.block1 {
+text-align: center;
+width: 100%;
+z-index: -10;
+}
+
+h2{ 
+color:#1BA09C;
+font-size:30px;
+}
+
+h2:hover {
+
+color:#EC853D;
+
+}
