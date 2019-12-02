@@ -22,9 +22,9 @@ $(document).ready(function(){
  $(".shirt3").draggable();
                 });
 
-$(document).ready(function(){
- $(".shoes1").draggable();
-                });
+// $(document).ready(function(){
+//  $(".shoes1").draggable();
+//                 });
 
 
 $(document).ready(function() {
@@ -64,10 +64,10 @@ $(document).ready(function() {
   });
 
 
-$(document).ready(function() {
- $('.shoes1').click(function() {
-  $(this).fadeOut('fast');
- });
-  });
+// $(document).ready(function() {
+//  $('.shoes1').click(function() {
+//   $(this).fadeOut('fast');
+//  });
+//   });
 
         
