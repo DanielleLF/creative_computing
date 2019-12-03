@@ -1,7 +1,7 @@
 body { 
  /*background-image: url(images/runway.jpg);
  background-repeat: no-repeat;*/
- background-color: #D9E158;
+ background-color: #FFF47D;
 }
 
 h1 {
@@ -19,6 +19,7 @@ font-weight: Bold;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin:10px;
  }
 
  
@@ -36,11 +37,11 @@ z-index: -10;
 
 h2{ 
 color:#1BA09C;
-font-size:20px;
-position:absolute;
+font-size:30px;
+/*position:absolute;
 left:990px;
 bottom:450px;
-}
+}*/
 
 h2:hover {
 color:#EC853D;

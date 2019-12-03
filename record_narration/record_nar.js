@@ -22,10 +22,6 @@ $(document).ready(function(){
  $(".shirt3").draggable();
                 });
 
-// $(document).ready(function(){
-//  $(".shoes1").draggable();
-//                 });
-
 
 $(document).ready(function() {
   $('.pants1').click(function() {
