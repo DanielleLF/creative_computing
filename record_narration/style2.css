@@ -36,13 +36,14 @@ z-index: -10;
 }
 
 h2{ 
-color:#1BA09C;
-font-size:30px;
-/*position:absolute;
+color:black;
+font-size:20px;
+position:absolute;
 left:990px;
-bottom:450px;
-}*/
+bottom:350px;
+}
 
 h2:hover {
-color:#EC853D;
+/*color:#EC853D;*/
+background-color:silver;
 }

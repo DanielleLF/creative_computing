@@ -1,11 +1,11 @@
 body {
-background-color: white;
+background-color: silver;
 /*text-align: center;*/
 }
 
 
 h1 {
-color:#1BA09C;	
+color:/*#1BA09C*/black;	
 font-size:40px;
 /*position:absolute;
 left:100px;
@@ -38,18 +38,19 @@ z-index: -10;
 }
 
 h2{ 
-font-size:30px;
-color:#1BA09C;
-/*position:absolute;
+font-size:20px;
+color:black;
+position:absolute;
 left:990px;
-bottom:450px;*/
+bottom:350px;
 /*float:right;*/
 /*padding-bottom: 50pt;*/ 
 }
 
 h2:hover {
 /*text-shadow:4px 5px #EC853D;*/
-color:#EC853D;
+/*color:#EC853D;*/
+background-color:#FFF47D;
 
 }
 
