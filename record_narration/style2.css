@@ -1,13 +1,13 @@
 body { 
  /*background-image: url(images/runway.jpg);
  background-repeat: no-repeat;*/
- background-color: #FFF47D;
+ background-color:silver ;
 }
 
 h1 {
 color: black;
-text-shadow: 4px 5px silver;
-font-size:40px;
+text-shadow: 4px 5px #FFF47D;
+font-size:60px;
 text-align:center
 font-style: Normal;
 font-weight: Bold;
@@ -38,12 +38,32 @@ z-index: -10;
 h2{ 
 color:black;
 font-size:20px;
+/*text-align:center*/
 position:absolute;
-left:990px;
-bottom:350px;
+left:300px;
+/*bottom:500px;*/
 }
 
-h2:hover {
-/*color:#EC853D;*/
+/*h2:hover {
+color:#EC853D;
 background-color:silver;
-}
+}*/
+
+.blink {
+      animation: blinker 0.6s linear infinite;
+      color: black;
+      text-shadow:4px 5px #FFF47D;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+      position:absolute;
+      left:850px;
+      bottom:40px;
+      }
+      
+      .blink-two {
+      animation: blinker-two 1.4s linear infinite;
+      }
+      @keyframes blinker-two {  
+      100% { opacity: 0; }
+      }
